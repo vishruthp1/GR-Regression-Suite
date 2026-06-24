@@ -21,16 +21,3 @@ The report provides:
 - Detailed failure logs
 - Test categorization and analysis
 
-### How to View the Report
-
-1. Extract the report package (if shared as ZIP).
-2. Open the `allure-report` folder.
-3. Launch `index.html` in a web browser.
-
-### Notes
-- Results represent the status of the application at the time of execution.
-- Failed tests have been analyzed and categorized under Product Defects or Broken Code where applicable.
-- Additional screenshots and logs are available within individual test results.
-
----
-Generated using Allure Reporting Framework
