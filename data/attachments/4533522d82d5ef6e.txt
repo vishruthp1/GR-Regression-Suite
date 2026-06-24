@@ -1,0 +1,3 @@
+Captured Order ID before reset: ['Y109804011', 'Y109822604', 'Y109785418', 'Y109766825', 'Y109748232']
+Captured Order ID after reset: ['Y109804011', 'Y109822604', 'Y109785418', 'Y109766825', 'Y109748232']
+PASS: Reset with no active filters leaves grid unchanged.

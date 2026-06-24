@@ -1,0 +1,145 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+Verify Customer List accessibility through:
+1. Sidebar navigation
+2. Quick Actions
+
+Verify all mandatory columns are visible and
+Customer ID is clickable.
+","7633","test_customer_list_accessible_via_sidebar_and_quick_search","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_38","",""
+"","12853","test_sort_by_date_and_amount","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_36_order_sort_date_amount","",""
+"
+Verify order notes are private per user.
+","11130","test_order_notes_privacy","tests.regression","2026-06-24","failed","2026-06-24","","test_TC_41","",""
+"
+Verify user is successfully logged out after clicking Sign out.
+","9171","test_signout_successfully","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_02","",""
+"
+Test Case:
+Tab order is reflected correctly in UI after multiple reorders
+
+Objective:
+Verify that:
+- Multiple drag-and-drop reorder operations work correctly
+- Tab bar always reflects latest logical order
+- No tabs disappear or duplicate during reordering
+
+Expected:
+- UI order updates correctly after every drag
+- All tabs remain visible
+- No duplicate/missing tabs
+","7956","test_multiple_tab_reorders_reflect_correct_ui_order","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_09_multiple_tab_reorders","",""
+"
+Verify designated customer fields are read-only.
+","9044","test_verify_read_only_fields_customer_detail","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_04","",""
+"
+Test Case:
+TUU-T796 - Save Search – Unique Name / Blank Name / Special Characters
+
+Objective:
+Verify that:
+1. User can save search with unique name
+2. Blank search name validation appears
+3. Special character validation works correctly
+
+Expected:
+1. New tab saved successfully
+2. Validation shown for blank name
+3. Validation shown or special chars sanitized
+","10665","test_save_search_validations","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_25_save_search_validations","",""
+"","8814","test_navigate_to_order_list","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_47_order_navigation","",""
+"","13326","test_filter_clear_and_empty_state","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_45_filter_clear_and_empty_state","",""
+"","25817","test_all_filter_types","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_18_all_filter_types","",""
+"
+Test Case:
+TUU-T796 - Save Search – Unique Name / Blank Name / Special Characters
+
+Objective:
+Verify that:
+1. User can save search with unique name
+2. Blank search name validation appears
+3. Special character validation works correctly
+
+Expected:
+1. New tab saved successfully
+2. Validation shown for blank name
+3. Validation shown or special chars sanitized
+","10869","test_save_search_validations","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_24_save_named_search","",""
+"","6350","test_create_draft_order_opens_new_active_tab","tests.regression","2026-06-24","passed","2026-06-24","TestCreateDraftOrderTabManagement","test_TC_30_create_draft_order_new_tab","",""
+"
+Test Case:
+All tab metadata (tabs, active tab, breadcrumbs)
+is fully restored after page refresh
+
+Objective:
+Verify that after browser refresh:
+- All tabs are restored
+- Active tab remains the same
+- Breadcrumbs are preserved
+- Tab IDs/titles remain intact
+
+Expected:
+- Tabs A, B, C restored correctly
+- Tab B remains active
+- Breadcrumb restored correctly
+","6495","test_tab_metadata_restored_after_refresh","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_29_tab_metadata_after_refresh","",""
+"","9993","test_dropdown_filter_results","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_46_dropdown_filter_results","",""
+"","3558","test_multiple_draft_order_tabs","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_10_multiple_draft_order_tabs","",""
+"
+Verify order number in the list is clickable and opens
+the corresponding order detail page.
+","11154","test_verify_order_number_hyperlink","tests.regression","2026-06-24","failed","2026-06-24","","test_TC_20","",""
+"","5940","test_search_order_quick_action_activates_input","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_17_search_order_quick_action","",""
+"","8686","test_order_list_accessible_and_renders","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_44_order_list_access","",""
+"","21967","test_pagination_next_previous_behavior","tests.regression","2026-06-24","failed","2026-06-24","","test_TC_37_pagination_navigation","",""
+"","10041","test_verify_preferred_node_distance_based_toggle","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_16","",""
+"","11527","test_multiple_column_filters_or_logic","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_34_multiple_filters_or_logic","",""
+"
+Verify successful login and default application state.
+","3954","test_login_with_valid_credentials","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_01","",""
+"
+Verify route protection and authentication-based
+redirection behavior.
+","3320","test_auth_route_redirection","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_27_auth_route_redirection","",""
+"
+Verify user can search for a customer and open the
+Customer Detail screen.
+","20784","test_search_customer_and_open_customer_detail","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_03","",""
+"","14061","test_global_reset_clears_all_filters","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_40_global_reset_all","",""
+"","3939","test_multiple_draft_order_tabs","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_31_multiple_draft_order_tabs","",""
+"
+Verify all major application routes render
+the correct layout components.
+","8848","test_all_defined_routes_render_correct_layout","tests.regression","2026-06-24","failed","2026-06-24","","test_TC_28_layout_routes_rendering","",""
+"","8874","test_reset_with_no_active_filters","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_35_reset_with_no_active_filters","",""
+"","34005","test_close_active_tab_fallback","tests.regression","2026-06-24","broken","2026-06-24","","test_TC_32_close_active_tab_fallback","",""
+"
+Verify clicking an order search suggestion navigates
+to the correct order detail page.
+","8491","test_verify_order_search_suggestion_navigation","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_15","",""
+"
+Verify only the Customer ID hyperlink navigates to
+Customer Details.
+","4982","test_customer_id_hyperlink_navigation","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_39","",""
+"
+Test Case:
+TUU-T793 - Saved Search Tab Applies Filters & Updates Table
+
+Objective:
+Verify that:
+- Clicking a saved search tab applies filters
+- Table data updates correctly
+- Filter state is reflected in the UI
+
+Expected:
+- Filters applied instantly
+- Table updates based on saved search criteria
+","7904","test_saved_search_tab_applies_filters_updates_table","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_26_saved_search_tab_applies_filters_updates_table","",""
+"
+Verify Apply button state changes correctly based on note text.
+","11310","test_note_save_button_validation","tests.regression","2026-06-24","failed","2026-06-24","","test_TC_42","",""
+"
+Verify clicking an order record displays
+order details in the right-hand pane.
+","11451","test_verify_order_details_right_pane","tests.regression","2026-06-24","failed","2026-06-24","","test_TC_19","",""
+"","11603","test_filter_icon_presence_and_control","tests.regression","2026-06-24","passed","2026-06-24","","test_TC_33_filter_icon_and_control","",""
